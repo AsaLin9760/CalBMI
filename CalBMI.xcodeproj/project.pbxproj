@@ -96,7 +96,6 @@
 				TargetAttributes = {
 					6EF10EBD204A926600F16E6C = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = XS8U8R8PWM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -263,7 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XS8U8R8PWM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CalBMI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.RainCityBlue.CalBMI;
@@ -276,7 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XS8U8R8PWM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CalBMI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Com.RainCityBlue.CalBMI;
@@ -304,6 +303,7 @@
 				6EF10ED2204A926600F16E6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
