@@ -9,8 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    //如果使用三個反斜線則會標注出所有變數的意思
+    ///高  
     var height : Double?
+    ///重量
     var weight : Double?
     var message : String = "Please Input Your Height And Weight!"
     var bmi : Double?
@@ -18,7 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var inputHeightField: UITextField!
     @IBOutlet weak var inputWeightField: UITextField!
     @IBOutlet weak var messageLabel: UILabel!
-    
+    ///Bmi button
     @IBAction func CalBmi(_ sender: UIButton){
         
         height = Double(inputHeightField.text!)
